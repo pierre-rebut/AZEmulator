@@ -1,0 +1,17 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  {}
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  AuxiliaryDeviceOutputBuffer: false
+  CommandData: false
+  GeneralPurposeTimeOut: false
+  InputBufferFull: false
+  KeyboardInhibit: false
+  OutputBufferFull: false
+  ParityError: false
+  SystemFlag: false
+Devices:
+  Keyboard: 17231731236714157428

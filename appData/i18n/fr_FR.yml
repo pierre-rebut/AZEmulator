@@ -1,0 +1,216 @@
+EXIT: Quitter
+EMPTY_PROJECT_DESC: Le projet vide vous permet de partir de zéro et de configurer vous-même les librairies, composants et liens
+ORDER_PRIORITY_INFO: Permet de définir l'ordre d'ordonancement d'exécution des composants (petit en premier)
+STOP_CPUS: Arrêter les CPU
+DEVICE_BIND: Lier le CPU
+COPY: Copier
+MASTER_VOLUME: Volume principal
+FILE: Fichier
+SIMPLE_6502_DESC: Simple configuration du CPU 65c02
+CLEAR: Effacer
+DEVICE_NAME: Nom du périphérique
+AUDIO_DEVICE_INFO: Permet de modifier la configuration du périphérique.
+SECONDARY_REGISTERS: Registres internes
+ENGINE_NAME: Nom du moteur
+MOUSE: Souris
+MSBASIC: MS Basic
+MSBASIC_DESC: Microsoft Basic over 65c02
+FAST_STEP: Fast step
+FAST_STEP_INFO: Avance rapide
+CLOSE_PROJECT: Ferme le projet
+PROJECT_CLOSED: "Le projet {} a été fermé"
+PROJECT_HISTORY: Historique
+READY: Prêt
+DEBUG_PANEL_INFO: Cette fenêtre permet de déboguer les CPU en consultant les variables interne du CPU courant lors de l'exécution pas à pas.
+INIT: Non initialiser
+NES_EMULATOR: Emulateur NES
+SHOW_EXPLORER: Afficher dans l'explorateur Windows
+STATUS: Statut
+LOG_PANEL_INFO: Cette fenêtre permet de consulter les logs de l'application.
+DELETE: Supprimer
+SETTINGS: Paramètres
+SERIAL_NOT_CONFIGURED: Terminal non configurer
+REFRESH_CORE_LIB: Recharger la liste
+DISK: Disque
+LOG_SETTINGS: Paramètres des logs
+STOPPED: Arrêtée
+ENGINES: Moteurs
+AUTO_CLEAN: Effacer automatiquement
+STAT_PANEL_INFO: Cette fenêtre permet de consulter des statistiques d'exécution.
+PROJECT_LOADED: Projet chargé
+VALUE: Valeur
+SPEED: Vitesse
+PROJECT_CREATED_AT: "Le projet sera créé dans : {}"
+LOAD: Charger
+X16_EMULATOR: Emulateur X16
+X16_EMULATOR_DESC: Emulateur du Commander X16 créé par le youtubeur The 8-Bit Guy.
+RUN_CPUS: Exécuter
+SHOW_ASSETS_TYPE: Afficher les types de fichier
+NES_EMULATOR_DESC: Configuration pour faire tourner des jeux NES.
+STEP_CPUS: Etape CPU
+NOT_IMPLEMENTED: Non implémentée
+NO_LOG: Aucun log
+LIB: Librairies
+CANCEL: Annuler
+INTERRUPT: Interrompre
+HELP: Aide
+PROJECT_SETTINGS: Configuration du projet
+THUMBNAIL_SIZE: Taille des icônes
+CORE_LIB_NAME: Nom Core Lib
+INDEX: Index
+OPEN_PROJECT: Ouvrir
+ENGINE_INFO: Un moteur (ou CPU) est un composant de l'émulateur. Il utilise une dll core lib pour s'exécuter.
+ADD: Ajouter
+SIMPLE_6502: Basic CPU 6502
+SCREEN: Ecran
+EXPLORER_SETTINGS: Paramètre de l'explorateur
+NEXT_DIRECTORY: Suivant
+LICENCE: Application sous licence BSD 3-Clause.
+REFRESH: Rafraîchir
+FLAGS: Drapeau
+INTERRUPT_INFO: Cette fenêtre permet de configurer les composants (moteurs ou périphériques) qui seront interrompus.
+CORE_LIB_SHOW: Afficher core lib
+LIB_CONFIG: Configuration de la Core Lib
+RELOAD: Recharger
+RUNNING: En cours d'exécution
+ENTITIES_SETTINGS: Paramètres des entités
+INFO_LOAD_CORE: Cette fenêtre permet de sélectionner la librairie à utiliser pour ce moteur.
+SIZE: Taille (en octet)
+TYPE: Type
+LOADING: Chargement en cours
+PATH: Chemin
+SAVE_EXIT: Enregistrer avant de quitter ?
+SERIAL_PANEL_INFO: Cette fenêtre permet de communiquer via le terminal avec les CPU.
+CONNECTED_TO: "Connectée au périphérique {}"
+REMOVE_QUESTION: "Etes-vous sûr de vouloir supprimer '{}' ?"
+CUT: Couper
+OPEN_EXTERNAL: Ouvrir
+NEW_BUS: Nouvelle mémoire
+GLOBAL_SETTINGS: Configuration globale
+NO_ENGINE_SELECTED: Aucun CPU sélectionné
+DEVICES: Périphériques
+RESET_PENDING: Réinitialisation des moteurs en cours
+NEW: Nouveau
+WIDTH: Largeur de l'écran
+CONFIG_PANEL_INFO: Cette fenêtre permet d'ajouter, modifier ou supprimer des composants (moteurs et périphériques).
+SPEED_INFO: Cette variable permet de gérer la vitesse d'exécution
+DEVICE_LOAD_FAILED: Chargement du fichier erreur
+SIMPLE_8086_DESC: Simple configuration du CPU 8086
+RECENT_PROJECT: Projets récents
+IS_TIPS_ENABLE: Activer les pop-ups tips
+PASTE: Coller
+YES: Oui
+EDIT: Editer
+APPLY: Appliquer les modifications
+NEW_DEVICE: Nouvelle connexion
+PROJECT_SAVED: Projet sauvegardé
+IMPORT: Importer
+SHOW_SECONDARY: Voir secondaires
+ADDRESS: Adresse
+RELOAD_ALL_LIB: Recharger toutes les lib
+LOCATION: Emplacement
+SCREEN_DEVICE_INFO: Permet de modifier la configuration de l'écran
+RENAME: Renommer
+LINES: Lignes
+ENABLE_AUTOSAVE: Activer la sauvegarde auto (non-fonctionnelle)
+HEIGHT: Hauteur de l'écran
+FOLDER: Dossier
+SAVE_PROJECT: Enregistrer
+ENTITIES_PANEL_INFO: Cette fenêtre affiche les valeurs des registres du CPU courant.
+MENU_MEMORY: Mémoires
+DEBUG_DISABLED: Mode débogage désactivée
+NAME: Nom
+PARAM_UPDATE_FAILED: Mise à jour des paramètres du moteur en erreur
+FULLSCREEN_MODE: Mode plein écran
+INIT_INFO: "Ce CPU n'a pas de librairie active ou n'est pas correctement initialisé (drag&drop fichier binaire)."
+KEYBOARD: Clavier
+MEMORY_SETTINGS: Paramètres de la mémoire
+HARD_PARAMETERS_INFO: Permet de configurer des paramètres interne du moteur (spécifiés dans la core lib)
+REDO: Refaire
+CONTENT: Contenue
+DEVICE_LOAD_SUCCESS: Chargement du fichier réussi
+AUTO_START: Auto start
+TIMELINE: Chronologie
+CREATE_PROJECT: Nouveau
+TOOLS: Outils
+RESET_SUCCESS: Réinitialisation des moteurs terminée
+UNDO: Annuler
+REMOVE: Enlever
+DEVICE_INFO: Un périphérique est un composant qui permet d'interagir avec l'application.
+ABOUT: A propos
+DEVICE_UPDATE_FAILED: Modification du périphérique en erreur
+BEGIN_ADDRESS: Adresse de début
+CAN_NOT_CREATE_ASTRA_DIR: Création du répertoire astra en erreur
+CAN_NOT_CREATE_DIR: Impossible de créer le dossier projet
+CAN_NOT_CREATE_SUB_ASTRA_DIR:  Création des sous-répertoires astra en erreur
+CAN_NOT_OPEN_PROJECT_FILE: "Erreur lors de l'ouverture du fichier de projet {}"
+CPU_CONNECTION_FAILED: Connexion CPU en erreur
+CREATE_PROJECT_FAILED: Impossible de créer le projet
+DELETE_ITEM_QUESTION: "Confirmer la suppression de {} éléments ?"
+FILE_SAVED: "Fichier {} sauvegarder"
+IMPORT_FOLDER: Importer un dossier
+INIT_PROJECT_FAILED: "Initialisation du projet en erreur : {}"
+INVALID_PROJECT_DIR: Répertoire projet incorrect
+INVALID_PROJECT_RIGHTS: Permission insuffisante
+INVALID_TEMPLATE: "Id {} de template incorrecte"
+ITEM_SELECTED_NB: "{} éléments sélectionnés"
+LOAD_PROJECT_FAILED: "Chargement du projet en erreur"
+LOAD_REGISTERS: Importer un fichier de registre
+MEMORY_RENAME: Renommer l'espace mémoire
+NO_ENGINE_BUILD: Pas de CPU sélectionnée pour la compilation
+OFFSET_IN_FILE: Offset dans le fichier
+OPEN_FILE: Importer un fichier
+PROJECT_ALREADY_OPEN: Projet déjà ouvert
+PROJECT_DIR_IN_USE: Répertoire projet déjà créé
+NOTHING_TO_SHOW: Rien a affiché
+WAIT_PROJECT_INIT: Créer ou charger un projet avant de pouvoir utiliser ces boutons
+ROW: Ligne
+SAVE_REGISTERS: Exporter les registres
+SELECT_DIRECTORY: Sélectioner le répertoire du projet
+TEMPLATE_INFO: Un template projet vous permets de partir d'une base et d'effectuer des modifications sur l'architecture.
+TRY_BUILD_ASSET: Type de fichier invalide
+INIT_TASK: Application en cours de chargement
+CORE_LOAD_FAILED: Chargement du fichier core invalide
+SELECT_ALL: Tout selectionner
+ENABLE_DEBUG: Activer le mode debogage
+CORE_LIB_RELOAD: Recharger Core Lib
+INVALID_PROJECT_CONFIG: Fichier de configuration projet invalide
+MEMORY_DUMP: Dump memoire
+FREQUENCY: Fréquence
+LANGUAGE: Langue
+SAVE: Sauvegarder
+CONNECT: Connecter
+MEMORY_LOAD: Charger mémoire
+OK: Ok
+RESET_INFO: Réinitialise les variables internes et l'état des CPU
+DUPLICATE: Dupliquer
+NONE: <indéfini>
+DEVICE_BIND_INFO: Cette fenêtre permet de configurer les liens du moteur avec d'autres composants (mémoires, périphériques).
+READY_INFO: Ce CPU est prêt à fonctionner
+RESET: Réinitialiser
+ORDER_PRIORITY: Priorité d'ordonancement
+REGISTERS: Registres
+SELECT_CPU: Selectioner CPU
+MENU_DEVICES: Périphériques
+MEMORY_PANEL_INFO: Cette fenêtre permet la configuration et manipulation des espaces mémoires des CPU.
+NO: Non
+REFRESH_CONNECTION_FAILED: Erreur lors du rafraîchissement des liens mémoire, consulter les logs pour plus de détails.
+READY_WAIT_INFO: Ce CPU n'est pas configuré pour se lancer automatiquement lors de l'exécution.
+CLOSE: Fermer
+SIMPLE_8086: Basic Intel 8086
+PROJECT_NAME: Nom du projet
+HARD_PARAMETERS: Paramètre moteur
+VIEW: Fenêtre
+CREATE: Créer
+EMPTY_PROJECT: Projet vide
+SERIAL: Terminal
+CORE_LOAD_SUCCESS: Librairie chargée correctement
+AUTO_START_INFO: Lance l'exécution automatique du CPU.
+PREV_DIRECTORY: Dossier précèdent
+DISK_DEVICE_INFO: "Pour éditer le fichier du disque, drag & drop un fichier (depuis l'explorateur) sur le nom du périphériques (dans la fenêtre de configuration)."
+AUDIO: Audio
+ENGINE: Moteur
+READ_ONLY: Lecture seule
+MEMORY_CLEAR: Effacer la mémoire
+ADDR_SIZE: Taille d'adresse
+SYSTEM_CLOCK: Horloge système

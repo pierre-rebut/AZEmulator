@@ -1,0 +1,11 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  {}
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  SetSystemTime: true
+Devices:
+  Keyboard: 12104959338985181223
+  Mouse: 5226032046758522065

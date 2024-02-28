@@ -1,0 +1,20 @@
+Version: 1
+IsCpuRunning: false
+RegistersValue:
+  ADDR0: 0
+  ADDR1: 0
+  ADDR2: 0
+  ADDR3: 0
+  CNT0: 0
+  CNT1: 0
+  CNT2: 0
+  CNT3: 0
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  flipflop0: false
+  flipflop1: false
+  flipflop2: false
+  flipflop3: false
+Devices:
+  {}

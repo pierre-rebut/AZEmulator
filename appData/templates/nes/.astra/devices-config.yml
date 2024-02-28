@@ -1,0 +1,51 @@
+Version: 1
+Devices:
+  3435142471687135258:
+    Name: CartSlot
+    Type: Disk
+    Disk:
+      DiskId: 10563090600451749031
+      ReadOnly: true
+  6056899671257587936:
+    Name: AUDIO
+    Type: Audio
+    MasterVolume: 1
+  14180151199045884237:
+    Name: keyboard
+    Type: Keyboard
+  4061643982524442391:
+    Name: cart
+    Type: Engine
+    ConnectedCpu:
+      - 111111
+  10499167493453201595:
+    Name: dmaTr
+    Type: Engine
+    ConnectedCpu:
+      - 111111
+  8764978067745277267:
+    Name: apu
+    Type: Engine
+    ConnectedCpu:
+      []
+  18427529647931012623:
+    Name: ppu
+    Type: Engine
+    ConnectedCpu:
+      - 111111
+  7713582110044863378:
+    Name: gamepad
+    Type: Engine
+    ConnectedCpu:
+      []
+  6895321318491877505:
+    Name: screen
+    Type: Screen
+    Screen:
+      Width: 256
+      Height: 240
+  111111:
+    Name: cpu
+    Type: Engine
+    ConnectedCpu:
+      []

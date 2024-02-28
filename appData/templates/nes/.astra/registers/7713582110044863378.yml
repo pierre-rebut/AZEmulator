@@ -1,0 +1,11 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  m_controller: 0
+  m_controllerState: 0
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  {}
+Devices:
+  Keyboard: 14180151199045884237

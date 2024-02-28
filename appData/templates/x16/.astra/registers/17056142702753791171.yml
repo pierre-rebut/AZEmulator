@@ -1,0 +1,11 @@
+Version: 1
+IsCpuRunning: false
+RegistersValue:
+  BankId: 0
+  WindowSize: 8192
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  {}
+Devices:
+  {}

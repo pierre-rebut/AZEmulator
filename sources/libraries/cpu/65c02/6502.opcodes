@@ -1,0 +1,266 @@
+; *******************************************************************************************
+; *******************************************************************************************
+;
+;		File:		6502.opcodes
+;		Purpose:	Descriptor file, STAndard 6502 opcodes
+;
+; *******************************************************************************************
+; *******************************************************************************************
+
+ADC ABS  4 $6d
+ADC ABX  4 $7d
+ADC ABY  4 $79
+ADC IMM  2 $69
+ADC IZX  6 $61
+ADC IZY  5 $71
+ADC ZP0  3 $65
+ADC ZPX  4 $75
+
+AND ABS  4 $2d
+AND ABX  4 $3d
+AND ABY  4 $39
+AND IMM  2 $29
+AND IZX  6 $21
+AND IZY  5 $31
+AND ZP0  3 $25
+AND ZPX  4 $35
+
+ASL ABS  6 $0e
+ASL ABX  7 $1e
+ASL IMP  2 $0a
+ASL ZP0  5 $06
+ASL ZPX  6 $16
+
+BCC REL  2 $90
+BCS REL  2 $b0
+BEQ REL  2 $f0
+BMI REL  2 $30
+BNE REL  2 $d0
+BPL REL  2 $10
+BVC REL  2 $50
+BVS REL  2 $70
+
+BRK IMP  7 $00
+
+BITS ABS  4 $2c
+BITS ZP0  3 $24
+
+CLC IMP  2 $18
+CLD IMP  2 $d8
+CLI IMP  2 $58
+CLV IMP  2 $b8
+
+CMP ABS  4 $cd
+CMP ABX  4 $dd
+CMP ABY  4 $d9
+CMP IMM  2 $c9
+CMP IZX  6 $c1
+CMP IZY  5 $d1
+CMP ZP0  3 $c5
+CMP ZPX  4 $d5
+
+CPX ABS  4 $ec
+CPX IMM  2 $e0
+CPX ZP0  3 $e4
+
+CPY ABS  4 $cc
+CPY IMM  2 $c0
+CPY ZP0  3 $c4
+
+DEC ABS  6 $ce
+DEC ABX  7 $de
+DEC ZP0  5 $c6
+DEC ZPX  6 $d6
+
+DEX IMP  2 $ca
+DEY IMP  2 $88
+
+EOR ABS  4 $4d
+EOR ABX  4 $5d
+EOR ABY  4 $59
+EOR IMM  2 $49
+EOR IZX  6 $41
+EOR IZY  5 $51
+EOR ZP0  3 $45
+EOR ZPX  4 $55
+
+INC ABS  6 $ee
+INC ABX  7 $fe
+INC ZP0  5 $e6
+INC ZPX  6 $f6
+
+INX IMP  2 $e8
+INY IMP  2 $c8
+
+JMP ABS  3 $4c
+JMP IND  5 $6c
+JSR ABS  6 $20
+
+LDA ABS  4 $ad
+LDA ABX  4 $bd
+LDA ABY  4 $b9
+LDA IMM  2 $a9
+LDA IZX  6 $a1
+LDA IZY  5 $b1
+LDA ZP0  3 $a5
+LDA ZPX  4 $b5
+
+LDX ABS  4 $ae
+LDX ABY  4 $be
+LDX IMM  2 $a2
+LDX ZP0  3 $a6
+LDX ZPY  4 $b6
+
+LDY ABS  4 $ac
+LDY ABX  4 $bc
+LDY IMM  2 $a0
+LDY ZP0  3 $a4
+LDY ZPX  4 $b4
+
+LSR ABS  6 $4e
+LSR ABX  7 $5e
+LSR IMP  2 $4a
+LSR ZP0  5 $46
+LSR ZPX  6 $56
+
+ORA ABS  4 $0d
+ORA ABX  4 $1d
+ORA ABY  4 $19
+ORA IMM  2 $09
+ORA IZX  6 $01
+ORA IZY  5 $11
+ORA ZP0  3 $05
+ORA ZPX  4 $15
+
+PHA IMP  3 $48
+PHP IMP  3 $08
+PLA IMP  4 $68
+PLP IMP  4 $28
+
+ROL ABS  6 $2e
+ROL ABX  7 $3e
+ROL IMP  2 $2a
+ROL ZP0  5 $26
+ROL ZPX  6 $36
+
+ROR ABS  6 $6e
+ROR ABX  7 $7e
+ROR IMP  2 $6a
+ROR ZP0  5 $66
+ROR ZPX  6 $76
+
+RTI IMP  6 $40
+RTS IMP  6 $60
+
+SBC ABS  4 $ed
+SBC ABX  4 $fd
+SBC ABY  4 $f9
+SBC IMM  2 $e9
+SBC IZX  6 $e1
+SBC IZY  5 $f1
+SBC ZP0  3 $e5
+SBC ZPX  4 $f5
+
+SEC IMP  2 $38
+SED IMP  2 $f8
+SEI IMP  2 $78
+
+STA ABS  4 $8d
+STA ABX  5 $9d
+STA ABY  5 $99
+STA IZX  6 $81
+STA IZY  6 $91
+STA ZP0  3 $85
+STA ZPX  4 $95
+
+STX ABS  4 $8e
+STX ZP0  3 $86
+STX ZPY  4 $96
+
+STY ABS  4 $8c
+STY ZP0  3 $84
+STY ZPX  4 $94
+
+TAX IMP  2 $aa
+TAY IMP  2 $a8
+TSX IMP  2 $ba
+TXA IMP  2 $8a
+TXS IMP  2 $9a
+TYA IMP  2 $98
+
+; 65c02 new instructions set
+
+ADC IZ0  5 $72
+AND IZ0  5 $32
+CMP IZ0  5 $d2
+EOR IZ0  5 $52
+LDA IZ0  5 $b2
+ORA IZ0  5 $12
+SBC IZ0  5 $f2
+STA IZ0  5 $92
+
+BITS IMM 2 $89
+BITS ZPX 4 $34
+BITS ABX 4 $3c
+
+DEC IMP 2 $3a
+INC IMP 2 $1a
+
+JMP AINX 6 $7c
+
+BRA REL 3 $80
+
+PHX IMP 3 $da
+PHY IMP 3 $5a
+PLX IMP 4 $fa
+PLY IMP 4 $7a
+
+STZ ZP0 3 $64
+STZ ZPX 4 $74
+STZ ABS 4 $9c
+STZ ABX 5 $9e
+
+TRB ZP0 5 $14
+TRB ABS 6 $1c
+TSB ZP0 5 $04
+TSB ABS 6 $0c
+
+BBR0 ZPREL 5 $0f
+BBR1 ZPREL 5 $1f
+BBR2 ZPREL 5 $2f
+BBR3 ZPREL 5 $3f
+BBR4 ZPREL 5 $4f
+BBR5 ZPREL 5 $5f
+BBR6 ZPREL 5 $6f
+BBR7 ZPREL 5 $7f
+
+BBS0 ZPREL 5 $8f
+BBS1 ZPREL 5 $9f
+BBS2 ZPREL 5 $af
+BBS3 ZPREL 5 $bf
+BBS4 ZPREL 5 $cf
+BBS5 ZPREL 5 $df
+BBS6 ZPREL 5 $ef
+BBS7 ZPREL 5 $ff
+
+RMB0 ZP0 5 $07
+RMB1 ZP0 5 $17
+RMB2 ZP0 5 $27
+RMB3 ZP0 5 $37
+RMB4 ZP0 5 $47
+RMB5 ZP0 5 $57
+RMB6 ZP0 5 $67
+RMB7 ZP0 5 $77
+
+SMB0 ZP0 5 $87
+SMB1 ZP0 5 $97
+SMB2 ZP0 5 $a7
+SMB3 ZP0 5 $b7
+SMB4 ZP0 5 $c7
+SMB5 ZP0 5 $d7
+SMB6 ZP0 5 $e7
+SMB7 ZP0 5 $f7
+
+WAI IMP 3 $cb
+
+DBG IMP 1 $DB

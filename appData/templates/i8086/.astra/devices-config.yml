@@ -1,0 +1,53 @@
+Version: 1
+Devices:
+  17231731236714157428:
+    Name: Keyboard
+    Type: Keyboard
+  1615735582663700321:
+    Name: Bios
+    Type: Disk
+    Disk:
+      DiskId: 6154966106980412540
+      ReadOnly: true
+  13083367737190840331:
+    Name: Basic
+    Type: Disk
+    Disk:
+      DiskId: 4579291924323746338
+      ReadOnly: true
+  5472423874111031611:
+    Name: pit
+    Type: Engine
+    ConnectedCpu:
+      - 16095031606374820970
+  8174286468952884774:
+    Name: ppi
+    Type: Engine
+    ConnectedCpu:
+      - 16095031606374820970
+  16095031606374820970:
+    Name: pic
+    Type: Engine
+    ConnectedCpu:
+      []
+  7848979950575224660:
+    Name: crtc
+    Type: Engine
+    ConnectedCpu:
+      []
+  3671650563471076333:
+    Name: dma
+    Type: Engine
+    ConnectedCpu:
+      []
+  8935142090147664687:
+    Name: Screen
+    Type: Screen
+    Screen:
+      Width: 640
+      Height: 200
+  2880267350555637195:
+    Name: cpu
+    Type: Engine
+    ConnectedCpu:
+      []

@@ -1,0 +1,17 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  icw0: 0
+  icw1: 0
+  icw2: 0
+  icw3: 0
+  m_icwStep: 0
+  m_imr: 0
+  m_irr: 0
+  m_isr: 0
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  forceInterrupt: false
+Devices:
+  {}

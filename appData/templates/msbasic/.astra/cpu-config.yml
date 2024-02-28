@@ -1,0 +1,33 @@
+Version: 1
+CurrentEngine: 111111
+CPU:
+  3353761205580526584:
+    Name: kbr
+    CoreLib:
+      DirName: utils
+      LibName: kbr2ascii
+    Speed: 100
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      - 1
+  111111:
+    Name: cpu
+    CoreLib:
+      DirName: cpu
+      LibName: 65c02
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      - 1
+  12409901366347998917:
+    Name: crtc
+    CoreLib:
+      DirName: monitors
+      LibName: motorola6845
+    Speed: 500
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      []

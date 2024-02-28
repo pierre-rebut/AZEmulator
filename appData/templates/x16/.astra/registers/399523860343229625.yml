@@ -1,0 +1,16 @@
+Version: 1
+IsCpuRunning: false
+RegistersValue:
+  clock_base: 0
+  clock_snap: 0
+  echo_mode: 0
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  cmdkeys: false
+  debugger: false
+  keyboard: false
+  save: false
+  video: false
+Devices:
+  {}

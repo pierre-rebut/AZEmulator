@@ -1,0 +1,26 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  a: 0
+  pc: 59620
+  stkp: 253
+  x: 0
+  y: 0
+SecondaryRegistersValue:
+  addr_abs: 0
+  addr_rel: 0
+  cycles: 8
+  fetched: 0
+  opcode: 203
+  temp: 0
+FlagsValue:
+  B: false
+  C: false
+  D: false
+  I: true
+  N: false
+  U: true
+  V: false
+  Z: false
+Devices:
+  Main: 9345344383519326661

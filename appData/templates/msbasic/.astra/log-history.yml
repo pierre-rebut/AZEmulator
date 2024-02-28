@@ -1,0 +1,14 @@
+Version: 1
+Logs:
+  - Type: Success
+    Title: CPU kbr (3353761205580526584)
+    Content: Lib kbr2ascii loaded
+    Time: 1709128356
+  - Type: Success
+    Title: CPU cpu (111111)
+    Content: Lib 65c02 loaded
+    Time: 1709128356
+  - Type: Success
+    Title: CPU crtc (12409901366347998917)
+    Content: Lib motorola6845 loaded
+    Time: 1709128356

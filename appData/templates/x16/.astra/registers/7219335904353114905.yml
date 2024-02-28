@@ -1,0 +1,11 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  {}
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  {}
+Devices:
+  SdCard: 16065589625462734533
+  Video: 13191095046395752993

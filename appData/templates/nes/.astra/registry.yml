@@ -1,0 +1,64 @@
+Assets:
+  - Handle: 762906420091504396
+    FilePath: .astra/registers/10499167493453201595.yml
+    Type: CONFIG
+  - Handle: 2029902198427761311
+    FilePath: .astra/registers/4061643982524442391.yml
+    Type: CONFIG
+  - Handle: 3956214423275333421
+    FilePath: .astra/registers/18427529647931012623.yml
+    Type: CONFIG
+  - Handle: 4000657397962880739
+    FilePath: .astra/registers/18427529647931012623.yml
+    Type: CONFIG
+  - Handle: 4091870610915804779
+    FilePath: .astra/registry.yml
+    Type: CONFIG
+  - Handle: 4433441325062292372
+    FilePath: README.md
+    Type: TEXT
+  - Handle: 4663801575068183488
+    FilePath: .astra/memories/10915322304734805006.mem
+    Type: MEM
+  - Handle: 6461673826994659935
+    FilePath: .astra/registers/111111.yml
+    Type: CONFIG
+  - Handle: 7372724786992031465
+    FilePath: .astra/nodes.yml
+    Type: CONFIG
+  - Handle: 8527305579062664376
+    FilePath: .astra/registers/8764978067745277267.yml
+    Type: CONFIG
+  - Handle: 9090754889811372973
+    FilePath: .astra/memories/9357606989479197002.mem
+    Type: MEM
+  - Handle: 10156386292347844133
+    FilePath: .astra/registers/111111.yml
+    Type: CONFIG
+  - Handle: 10378241718649807941
+    FilePath: .astra/registers/111111.yml
+    Type: CONFIG
+  - Handle: 10563090600451749031
+    FilePath: nestest.dsk
+    Type: DISK
+  - Handle: 12937619307968885468
+    FilePath: .astra/bus-config.yml
+    Type: CONFIG
+  - Handle: 13129799166339586585
+    FilePath: .astra/registers/111111.yml
+    Type: CONFIG
+  - Handle: 13628788754592072476
+    FilePath: .astra/cpu-config.yml
+    Type: CONFIG
+  - Handle: 14113358062323170963
+    FilePath: .astra/registers/18427529647931012623.yml
+    Type: CONFIG
+  - Handle: 16804692664800762668
+    FilePath: .astra/registers/7713582110044863378.yml
+    Type: CONFIG
+  - Handle: 17279178164423339865
+    FilePath: .astra/project.yml
+    Type: CONFIG
+  - Handle: 18214320768010326983
+    FilePath: .astra/devices-config.yml
+    Type: CONFIG

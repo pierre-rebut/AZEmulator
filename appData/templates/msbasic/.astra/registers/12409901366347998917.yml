@@ -1,0 +1,28 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  R0: 0
+  R1: 0
+  R2: 0
+  R3: 0
+  R4: 0
+  R5: 0
+  R6: 0
+  R7: 0
+  R8: 0
+  R9: 0
+  RA: 0
+  RB: 0
+  RC: 0
+  RD: 0
+  RE: 0
+  RF: 0
+  index: 0
+  retrace: 0
+  vShift: 0
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  {}
+Devices:
+  Video: 15030619570178762531

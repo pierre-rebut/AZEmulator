@@ -1,0 +1,32 @@
+Version: 1
+Devices:
+  13157922170397055762:
+    Name: bios
+    Type: Disk
+    Disk:
+      DiskId: 2766280603422811683
+      ReadOnly: true
+  15030619570178762531:
+    Name: Screen
+    Type: Screen
+    Screen:
+      Width: 640
+      Height: 200
+  3353761205580526584:
+    Name: kbr
+    Type: Engine
+    ConnectedCpu:
+      []
+  2345962094438093716:
+    Name: Keyboard
+    Type: Keyboard
+  111111:
+    Name: cpu
+    Type: Engine
+    ConnectedCpu:
+      []
+  12409901366347998917:
+    Name: crtc
+    Type: Engine
+    ConnectedCpu:
+      []

@@ -1,0 +1,23 @@
+Version: 1
+CurrentEngine: 111111
+CPU:
+  111111:
+    Name: cpu
+    CoreLib:
+      DirName: cpu
+      LibName: 65c02
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      - 0
+  16495467231675324418:
+    Name: worstscreen
+    CoreLib:
+      DirName: monitors
+      LibName: worstscreen
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      []

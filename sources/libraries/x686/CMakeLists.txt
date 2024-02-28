@@ -1,0 +1,5 @@
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${LIB_OUTPUT_DIR}/x686)
+
+#file(GLOB_RECURSE CMOS_FILES cmos/*.cpp)
+#add_library(cmos ${CMOS_FILES})

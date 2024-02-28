@@ -1,0 +1,46 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  ax: 0
+  bp: 0
+  bx: 0
+  cs: 65535
+  cx: 0
+  di: 0
+  ds: 0
+  dx: 0
+  es: 0
+  ip: 0
+  si: 0
+  sp: 0
+  ss: 0
+SecondaryRegistersValue:
+  clocks: 0
+  d: 0
+  ea: 0
+  mod: 0
+  os: 0
+  reg: 0
+  rep: 0
+  rm: 0
+  w: 0
+FlagsValue:
+  AF: false
+  CF: false
+  DF: false
+  IF: false
+  IOPH: false
+  IOPL: false
+  NT: false
+  OF: false
+  PF: false
+  SF: false
+  TF: false
+  ZF: false
+  reserved_1: false
+  reserved_2: false
+  reserved_3: false
+  reserved_4: false
+Devices:
+  Devices: 137475987253514640
+  Memory: 9916219817800386265

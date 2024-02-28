@@ -1,0 +1,23 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  clock_counter: 0
+  dAudioSample: 0
+  frame_clock_counter: 0
+  noise_visual: 2047
+  pulse1_visual: 2047
+  pulse2_visual: 2047
+  triangle_visual: 0
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  bAudioSampleReady: false
+  bUseRawMode: false
+  noise_enable: false
+  noise_halt: false
+  pulse1_enable: false
+  pulse1_halt: false
+  pulse2_enable: true
+  pulse2_halt: true
+Devices:
+  Audio Out: 6056899671257587936

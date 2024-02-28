@@ -1,0 +1,65 @@
+Version: 1
+Devices:
+  5226032046758522065:
+    Name: Mouse
+    Type: Mouse
+  13191095046395752993:
+    Name: Screen
+    Type: Screen
+    Screen:
+      Width: 640
+      Height: 480
+  14973773817227905041:
+    Name: RomFile
+    Type: Disk
+    Disk:
+      DiskId: 15097926115745649679
+      ReadOnly: true
+  11937533106786956394:
+    Name: Audio
+    Type: Audio
+    MasterVolume: 1
+  399523860343229625:
+    Name: emu
+    Type: Engine
+    ConnectedCpu:
+      []
+  17056142702753791171:
+    Name: ram
+    Type: Engine
+    ConnectedCpu:
+      []
+  5243194262618885913:
+    Name: via
+    Type: Engine
+    ConnectedCpu:
+      - 16985796926857625693
+  16985796926857625693:
+    Name: cpu
+    Type: Engine
+    ConnectedCpu:
+      []
+  16065589625462734533:
+    Name: Sdcard
+    Type: Disk
+    Disk:
+      DiskId: 11726045133953281861
+      ReadOnly: false
+  1509842018552993015:
+    Name: rom
+    Type: Engine
+    ConnectedCpu:
+      []
+  7219335904353114905:
+    Name: vera
+    Type: Engine
+    ConnectedCpu:
+      - 16985796926857625693
+  12104959338985181223:
+    Name: Keyboard
+    Type: Keyboard
+  15118852012511833582:
+    Name: ymh
+    Type: Engine
+    ConnectedCpu:
+      []

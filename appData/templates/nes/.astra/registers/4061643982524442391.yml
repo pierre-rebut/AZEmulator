@@ -1,0 +1,13 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  hw_mirror: 1
+  nCHRBanks: 1
+  nMapperID: 0
+  nPRGBanks: 1
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  isImageReady: true
+Devices:
+  CartSlot: 3435142471687135258

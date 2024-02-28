@@ -1,0 +1,12 @@
+Version: 1
+IsCpuRunning: false
+RegistersValue:
+  BankId: 0
+SecondaryRegistersValue:
+  MaxNbBank: 15
+  RomSize: 245760
+  WindowSize: 16384
+FlagsValue:
+  {}
+Devices:
+  Rom disk: 14973773817227905041

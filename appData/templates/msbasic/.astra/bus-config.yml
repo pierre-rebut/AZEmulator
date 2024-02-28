@@ -1,0 +1,19 @@
+Version: 1
+Bus:
+  18038262906204393939:
+    Name: main
+    Size: 65536
+    ReadOnly: false
+    ConnectedDevices:
+      - DeviceUUID: 12409901366347998917
+        Address: 6
+        Index: 2
+      - DeviceUUID: 3353761205580526584
+        Address: 16384
+        Index: 0
+      - DeviceUUID: 12409901366347998917
+        Address: 16400
+        Index: 1
+      - DeviceUUID: 13157922170397055762
+        Address: 32768
+        Index: 1

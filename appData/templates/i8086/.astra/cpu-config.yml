@@ -1,0 +1,63 @@
+Version: 1
+CurrentEngine: 2880267350555637195
+CPU:
+  5472423874111031611:
+    Name: pit
+    CoreLib:
+      DirName: x86
+      LibName: intel8253
+    Speed: 3
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      []
+  8174286468952884774:
+    Name: ppi
+    CoreLib:
+      DirName: x86
+      LibName: intel8255
+    Speed: 100
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      []
+  16095031606374820970:
+    Name: pic
+    CoreLib:
+      DirName: x86
+      LibName: intel8259
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      []
+  7848979950575224660:
+    Name: crtc
+    CoreLib:
+      DirName: monitors
+      LibName: motorola6845
+    Speed: 600
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      []
+  3671650563471076333:
+    Name: dma
+    CoreLib:
+      DirName: x86
+      LibName: intel8237
+    Speed: 1
+    AutoStart: false
+    OrderPriority: 1
+    HardParameters:
+      []
+  2880267350555637195:
+    Name: cpu
+    CoreLib:
+      DirName: cpu
+      LibName: i8086
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      []

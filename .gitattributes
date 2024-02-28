@@ -1,0 +1,17 @@
+* text=auto
+
+*.c text
+*.cpp text
+*.h text
+*.md text
+*.yml text
+*.txt text
+
+Makefile text eol=lf
+*.sh text eol=lf
+
+*.png binary
+*.ttf binary
+*.lib binary
+*.dsk binary
+*.bin binary

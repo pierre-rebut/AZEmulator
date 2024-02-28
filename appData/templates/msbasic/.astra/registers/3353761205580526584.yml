@@ -1,0 +1,12 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  {}
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  Ctrl: false
+  Shift: false
+  Upper: true
+Devices:
+  Keyboard: 2345962094438093716

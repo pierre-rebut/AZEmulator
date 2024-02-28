@@ -1,0 +1,76 @@
+Version: 1
+CurrentEngine: 16985796926857625693
+CPU:
+  399523860343229625:
+    Name: emu
+    CoreLib:
+      DirName: x16
+      LibName: emu
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 2
+    HardParameters:
+      []
+  17056142702753791171:
+    Name: ram
+    CoreLib:
+      DirName: utils
+      LibName: rambank
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 0
+    HardParameters:
+      - 8192
+      - 255
+      - 160
+  5243194262618885913:
+    Name: via
+    CoreLib:
+      DirName: x16
+      LibName: via
+    Speed: 6
+    AutoStart: true
+    OrderPriority: 2
+    HardParameters:
+      - 1
+  16985796926857625693:
+    Name: cpu
+    CoreLib:
+      DirName: cpu
+      LibName: 65c02
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      - 1
+  1509842018552993015:
+    Name: rom
+    CoreLib:
+      DirName: x16
+      LibName: rombankx16
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 0
+    HardParameters:
+      - 16384
+      - 192
+  7219335904353114905:
+    Name: vera
+    CoreLib:
+      DirName: monitors
+      LibName: vera
+    Speed: 6
+    AutoStart: true
+    OrderPriority: 2
+    HardParameters:
+      []
+  15118852012511833582:
+    Name: ymh
+    CoreLib:
+      DirName: x16
+      LibName: yamaha
+    Speed: 6
+    AutoStart: true
+    OrderPriority: 2
+    HardParameters:
+      []

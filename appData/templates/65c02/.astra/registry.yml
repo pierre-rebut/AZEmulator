@@ -1,0 +1,31 @@
+Assets:
+  - Handle: 406127048951061513
+    FilePath: .astra/nodes.yml
+    Type: CONFIG
+  - Handle: 3529980856984162517
+    FilePath: README.md
+    Type: TEXT
+  - Handle: 4834869934088911046
+    FilePath: .astra/memories/18038262906204393939.mem
+    Type: MEM
+  - Handle: 6792740312125946358
+    FilePath: .astra/cpu-config.yml
+    Type: CONFIG
+  - Handle: 7161072475639579389
+    FilePath: .astra/bus-config.yml
+    Type: CONFIG
+  - Handle: 7810899006680831722
+    FilePath: .astra/registers/16495467231675324418.yml
+    Type: CONFIG
+  - Handle: 9003448153857176132
+    FilePath: .astra/project.yml
+    Type: CONFIG
+  - Handle: 11157206725288984309
+    FilePath: .astra/registers/111111.yml
+    Type: CONFIG
+  - Handle: 12002665170643807457
+    FilePath: .astra/devices-config.yml
+    Type: CONFIG
+  - Handle: 13105748509191226463
+    FilePath: .astra/registry.yml
+    Type: CONFIG

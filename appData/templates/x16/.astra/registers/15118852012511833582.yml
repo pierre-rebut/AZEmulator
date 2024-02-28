@@ -1,0 +1,10 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  addr_ym: 0
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  {}
+Devices:
+  Audio: 11937533106786956394

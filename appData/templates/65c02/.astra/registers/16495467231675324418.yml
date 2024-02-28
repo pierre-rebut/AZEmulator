@@ -1,0 +1,10 @@
+Version: 1
+IsCpuRunning: false
+RegistersValue:
+  {}
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  {}
+Devices:
+  Video: 10468613300743582032

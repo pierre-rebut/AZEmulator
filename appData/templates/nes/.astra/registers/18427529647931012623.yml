@@ -1,0 +1,32 @@
+Version: 1
+IsCpuRunning: true
+RegistersValue:
+  address_latch: 0
+  bg_next_tile_attrib: 0
+  bg_next_tile_id: 0
+  bg_next_tile_lsb: 0
+  bg_next_tile_msb: 0
+  bg_shifter_attrib_hi: 0
+  bg_shifter_attrib_lo: 0
+  bg_shifter_pattern_hi: 0
+  bg_shifter_pattern_lo: 0
+  control: 0
+  cycle: 0
+  fine_x: 0
+  mask: 0
+  ppu_data_buffer: 0
+  scanline: 0
+  status: 0
+  tram_addr: 0
+  vram_addr: 0
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  bSpriteZeroBeingRendered: false
+  bSpriteZeroHitPossible: false
+  frame_complete: false
+  odd_frame: false
+  scanline_trigger: false
+Devices:
+  VRam: 10915322304734805006
+  Video: 6895321318491877505

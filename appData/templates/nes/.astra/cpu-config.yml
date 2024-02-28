@@ -1,0 +1,63 @@
+Version: 1
+CurrentEngine: 111111
+CPU:
+  4061643982524442391:
+    Name: cart
+    CoreLib:
+      DirName: nes
+      LibName: cartNes
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 0
+    HardParameters:
+      []
+  10499167493453201595:
+    Name: dmaTr
+    CoreLib:
+      DirName: nes
+      LibName: dmaTransfert
+    Speed: 3
+    AutoStart: false
+    OrderPriority: 1
+    HardParameters:
+      []
+  8764978067745277267:
+    Name: apu
+    CoreLib:
+      DirName: nes
+      LibName: apu2A03
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      []
+  18427529647931012623:
+    Name: ppu
+    CoreLib:
+      DirName: nes
+      LibName: ppu2C02
+    Speed: 1
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      []
+  7713582110044863378:
+    Name: gamepad
+    CoreLib:
+      DirName: nes
+      LibName: gamepad
+    Speed: 3
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      []
+  111111:
+    Name: cpu
+    CoreLib:
+      DirName: cpu
+      LibName: 65c02
+    Speed: 3
+    AutoStart: true
+    OrderPriority: 1
+    HardParameters:
+      - 0

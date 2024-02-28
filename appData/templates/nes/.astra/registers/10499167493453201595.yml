@@ -1,0 +1,15 @@
+Version: 1
+IsCpuRunning: false
+RegistersValue:
+  dmaAddr: 0
+  dmaData: 0
+  dmaPage: 0
+  oamAddr: 0
+SecondaryRegistersValue:
+  {}
+FlagsValue:
+  isDummy: true
+  isTransfer: false
+  oddCycle: false
+Devices:
+  CPU: 9357606989479197002

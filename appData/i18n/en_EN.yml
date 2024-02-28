@@ -1,0 +1,213 @@
+REFRESH_CORE_LIB: Refresh librairy list
+SIMPLE_6502_DESC: Simple 6502 CPU
+MENU_MEMORY: Memories
+Serial: Serial
+AUTO_START_INFO: Start CPU on exec
+SECONDARY_REGISTERS: Internal registers
+PATH: Path
+LOADING: Loading...
+GLOBAL_SETTINGS: Global settings
+INIT_INFO: "This engine don't have an active core lib, invalid links config or need a drag&drop init bin file"
+PARAM_UPDATE_FAILED: Core Lib hard parameters update failed
+REFRESH_CONNECTION_FAILED: Refresh memory connection failed, check the log for more
+HARD_PARAMETERS: Engine parameters
+HARD_PARAMETERS_INFO: Set core lib parameters for this engine
+INDEX: Index
+MOUSE: Mouse
+MSBASIC: MS Basic
+MSBASIC_DESC: Microsoft Basic over 65c02
+FAST_STEP: Fast step
+FAST_STEP_INFO: Step count
+CLOSE_PROJECT: Close project
+PROJECT_CLOSED: "Project {} closed"
+ORDER_PRIORITY_INFO: Execution priority order (lower first)
+CORE_LOAD_FAILED: Core file load failed
+DEVICE_LOAD_SUCCESS: Device file loaded successfully
+DEVICE_LOAD_FAILED: Device file load failed
+RESET_PENDING: Engines reset in progress
+READY_WAIT_INFO: This engine will not auto start on execution
+RESET_SUCCESS: Engines reset succeed
+ORDER_PRIORITY: Order priority
+KEYBOARD: Keyboard
+INIT: Not init
+NES_EMULATOR: NES Emulator
+PROJECT_SAVED: Project savec
+NO_ENGINE_SELECTED: No engine selected
+ENABLE_AUTOSAVE: Enable auto saving (not implemented)
+SPEED_INFO: Allow exeuction speed modification
+CONFIG_PANEL_INFO: This panel provide consultation, modification or removing components (engine or devices)
+ENTITIES_PANEL_INFO: This panel provide consulation and modification for engine registers
+CUT: Cut
+LOG_PANEL_INFO: This panel provide logs informations about the application
+DELETE: Delete
+SERIAL_PANEL_INFO: This panel provide dual communication to the engines
+SAVE_EXIT: Save project before exit?
+THUMBNAIL_SIZE: Thumbnail size
+CONNECTED_TO: "Connected to device {}"
+REMOVE_QUESTION: "Are you sure you want to delete '{}' ?"
+DEVICE_UPDATE_FAILED: Device update failed
+BEGIN_ADDRESS: Begin memory address
+CAN_NOT_CREATE_ASTRA_DIR: Can not create astra directory
+CAN_NOT_CREATE_DIR: Can not create project directory
+CAN_NOT_CREATE_SUB_ASTRA_DIR:  Can not create sub astra directory
+CAN_NOT_OPEN_PROJECT_FILE: "Can not open project file {}"
+CPU_CONNECTION_FAILED: CPU connection failed
+CREATE_PROJECT_FAILED: Create project failed
+DELETE_ITEM_QUESTION: "Confirm deletion of {} items ?"
+FILE_SAVED: "File {} saved"
+IMPORT_FOLDER: Import folder
+INIT_PROJECT_FAILED: "Init project failed : {}"
+INVALID_PROJECT_DIR: Invalid project dir
+INVALID_PROJECT_RIGHTS: Permission denied
+INVALID_TEMPLATE: "Id {} template invalid"
+ITEM_SELECTED_NB: "{} items selected"
+LOAD_PROJECT_FAILED: "Load project failed"
+LOAD_REGISTERS: Import registers
+MEMORY_RENAME: Rename memory
+NO_ENGINE_BUILD: No engine selected for build
+OFFSET_IN_FILE: Offset in file
+OPEN_FILE: Import file
+PROJECT_ALREADY_OPEN: Project already open
+PROJECT_DIR_IN_USE: Project directory in use
+NOTHING_TO_SHOW: Nothing to show
+WAIT_PROJECT_INIT: Create or load a project before using theses buttons
+ROW: Row
+SAVE_REGISTERS: Export registers
+SELECT_DIRECTORY: Select directory
+TEMPLATE_INFO: Template project provide you a base architecture for you. You can then modify anything in your project
+TRY_BUILD_ASSET: Invalid asset type
+INIT_TASK: Initializing in progress
+X16_EMULATOR: X16 Emulator
+X16_EMULATOR_DESC: Commander X16 emulator created by The 8-Bit Guy youtuber
+RELOAD: Reload
+COPY: Copy
+FOLDER: Folder
+SIMPLE_8086_DESC: Simple 8086 CPU configuration
+RECENT_PROJECT: Recent project
+SAVE_PROJECT: Save
+ENGINE_INFO: An engine (or CPU) is a core component of the emulator. It use a dll core lib to execute instruction.
+OPEN_PROJECT: Open project
+SCREEN_DEVICE_INFO: Provide screen device configuration
+HEIGHT: Screen height
+WIDTH: Screen width
+AUDIO_DEVICE_INFO: Provide audio device configuration
+SHOW_EXPLORER: Show in explorer
+NEW: New
+REDO: Redo
+CONTENT: Content
+IMPORT: Import
+SHOW_SECONDARY: Show secondary
+ADDRESS: Address
+TYPE: Type
+EMPTY_PROJECT: Empty project
+TOOLS: Tools
+UNDO: Undo
+REMOVE: Remove
+LICENCE: Application under BSD 3-Clause licence.
+PASTE: Paste
+IS_TIPS_ENABLE: Is tips popup enable ?
+RELOAD_ALL_LIB: Reload all core lib
+LOCATION: Location
+CORE_LOAD_SUCCESS: Core lib loaded successfully
+RUNNING: Running
+RESET: Reset
+CORE_LIB_NAME: Core Lib Name
+PROJECT_SETTINGS: Project settings
+HELP: Help
+FULLSCREEN_MODE: Fullscreen mode
+SIZE: Size (in byte)
+EXPLORER_SETTINGS: Explorer settings
+NEXT_DIRECTORY: Next folder
+PROJECT_NAME: Project name
+RENAME: Rename
+LINES: Lines
+SELECT_ALL: Select all
+INVALID_PROJECT_CONFIG: Invalid project config file
+NO: No
+MEMORY_PANEL_INFO: This panel provide consultation, modification and deletion for memories blocks
+OPEN_EXTERNAL: Open external
+NEW_BUS: New memory
+SIMPLE_8086: Basic Intel 8086
+CLOSE: Close
+CREATE: Create
+VIEW: View
+OK: Ok
+RESET_INFO: Reset internal CPU states
+DUPLICATE: Duplicate
+READY_INFO: This engine is ready
+DEVICE_BIND_INFO: This panel provide consultation and modification of the current CPU bindings to other components (devices or memories)
+MENU_DEVICES: Devices
+REGISTERS: Registers
+SELECT_CPU: Select CPU
+FILE: File
+REFRESH: Refresh
+FLAGS: Flags
+TIMELINE: Timeline
+CREATE_PROJECT: New project
+MEMORY_LOAD: Load memory
+MEMORY_DUMP: Dump memory
+CORE_LIB_RELOAD: Reload Core Lib
+ENABLE_DEBUG: Enable debug mode
+SAVE: Save
+CONNECT: Connect
+NONE: <none>
+ABOUT: About
+DEVICE_INFO: A device is a component used to interacte with the application (screen, audio, ...)
+LANGUAGE: Language
+FREQUENCY: Frequency
+PREV_DIRECTORY: Prev folder
+DEVICES: Devices
+STOPPED: Stopped
+NES_EMULATOR_DESC: Engines config to run Nintendo Entertainment System (NES) games
+SHOW_ASSETS_TYPE: Show assets type
+RUN_CPUS: Execute
+STATUS: Status
+SERIAL_NOT_CONFIGURED: Serial device not configured
+SETTINGS: Settings
+YES: Yes
+EDIT: Edit
+STAT_PANEL_INFO: This panel provide statistics info about engines executions
+PROJECT_LOADED: Project loaded
+VALUE: Value
+PROJECT_CREATED_AT: "Project created at {}"
+SPEED: Speed
+LOAD: Load
+SYSTEM_CLOCK: System clock
+CANCEL: Cancel
+INTERRUPT: Interrupt
+DISK: Disk
+LOG_SETTINGS: Logs settings
+LIB: Lib
+DISK_DEVICE_INFO: "You can also drag&drop a dsk file (from the explorer panel) to the disk name (on the devices config panel tab) to set a new disk"
+AUDIO: Audio
+AUTO_START: Auto start
+READ_ONLY: Read only
+ENGINE: Engine
+MEMORY_CLEAR: Clear memory
+ADDR_SIZE: Addr size
+NOT_IMPLEMENTED: Not implemented
+STEP_CPUS: Step engines
+STOP_CPUS: Stop all engines
+DEVICE_BIND: Link engine
+DEBUG_PANEL_INFO: This panel help to debug current engine execution, providing internal registers value during step execution
+READY: Ready
+PROJECT_HISTORY: Projects history
+ENGINE_NAME: Engine name
+MEMORY_SETTINGS: Memory settings
+LIB_CONFIG: Core lib config
+INFO_LOAD_CORE: "This panel provide core lib modification. FYI, you can drag&drop a bin file (from the explorer panel) to the engine name (to the engines config panel tab) to init internal states."
+ENTITIES_SETTINGS: Entities settings
+ENGINES: Engines
+AUTO_CLEAN: Auto clean
+CORE_LIB_SHOW: Show core lib
+INTERRUPT_INFO: This panel provide consultation and modification of engines that can be interrupted by the current
+EXIT: Exit
+EMPTY_PROJECT_DESC: Empty project with no configuration, allow custom application
+NO_LOG: No log entry
+CLEAR: Clear
+DEVICE_NAME: Device name
+NAME: Name
+DEBUG_DISABLED: Debug mode disabled
+ADD: Add
+SIMPLE_6502: Basic CPU 6502
+SCREEN: Screen
