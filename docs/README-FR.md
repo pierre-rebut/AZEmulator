@@ -10,7 +10,7 @@
 
 AZ Emulator est un outil d'émulation de processeur 8 et 16 bit (32 bit en développement).
 
-Il utilise un système de librairies esternes ([plus d'info ici](Librairies.md)) permettant le chargement facile de nouveaux cores.
+Il utilise un système de librairies externes ([plus d'info ici](Librairies.md)) permettant le chargement facile de nouveaux cores.
 
 AZ Emulator offre de nombreux outils :
 - Une gestion par projet, permettant le développement de plusieurs émulateurs
@@ -33,7 +33,7 @@ Plus d'images [ici](./img/README.md).
 
 ## Core cpu inclus
 
-Pour simplifier mon développement, je me suis basé sur les développement suivant :
+Pour simplifier mon développement, je me suis basé sur les développements suivants :
 
 - **CPU 65c02** par OneLoneCoder : https://github.com/OneLoneCoder/olcNES
 - **CPU intel 8086** par kxkx5150 : https://github.com/kxkx5150/CPU-8086-cpp
