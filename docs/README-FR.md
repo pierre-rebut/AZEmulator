@@ -8,18 +8,18 @@
     <img src="./img/X16.gif" alt="App GIF"/>
 </p>
 
-AZ Emulator est un outil d'émulation de processeur 8 et 16 bit (32 bit en developpement).
+AZ Emulator est un outil d'émulation de processeur 8 et 16 bit (32 bit en développement).
 
 Il utilise un système de librairies esternes ([plus d'info ici](Librairies.md)) permettant le chargement facile de nouveaux cores.
 
 AZ Emulator offre de nombreux outils :
-- Un gestion par projet, permettant le développement de plusieurs emulateur
+- Une gestion par projet, permettant le développement de plusieurs émulateurs
 - Une interface de configuration
 - Un visualiseur sous la forme de node
 - Une interface pour la gestion et la manipulation de la mémoire
 - Une interface permettant de visualiser l'état des registres internes
 - Une interface permettant le débogage, instruction par instruction
-- Une gestion simplifier des périfériques (clavier, disque, écran, son)
+- Une gestion simplifiée des périphériques (clavier, disque, écran, son)
 - Un système de sauvegarde de l'état du CPU
 
 ## Images
